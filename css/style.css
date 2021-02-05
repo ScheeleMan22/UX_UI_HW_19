@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    overflow: scroll;
+    /*background-color: #0C2037;*/
+}
+
+/*-------------------Top Navigation----------------------*/
+header {
+    background-color: #0C2037;
+    padding:15px;
+    height:15%;
+}
+header ul {
+    float: right;
+    color: #fefefe
+}
+header li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+header h1 {
+    display:flex;
+    color:#fefefe;
+}
+
+header p {
+    display:inline-flex;
+    color: #fefefe;
+    margin-top: -10px;
+}
+/*------------------------Body Content-------------------------------------------------------------------*/
+
+button {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-block;
+    color:#fefefe;
+    font-size:36px;
+    width: 33%;
+    height: 33%;
+    border: none;
+    margin-right: -2px;
+    margin-left: -2px;
+    text-align:center;
+    line-height: 2px;
+}
+
+
+/*
+.wrapper {
+    max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.buttonGrid {
+    display: inline-block;
+    position: left;
+}
+*/
+/*--------------------------------------------------------------------------------------------*/
+/*Footer Content*/
+/*
+footer{
+    background-color: #0C2037;
+    padding: 5px;
+    color: #fefefe;
+ 
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 5px;
+}
+footer li {
+    display: inline-block;
+    padding: 0px 7px;
+}
+*/
+
+/*
+.blueBlock{
+    width:33%;
+    height: 300px;
+    display: inline-block;
+    background-color: #6AA5B8;
+    color: whitesmoke;
+    margin-right: -2px;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mustardBlock{
+    width:33%;
+    height: 300px;
+    display: inline-block;
+    background-color: #D6A988;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.purpleBlock{
+    width:33%;
+    height: 300px;
+    display: inline-block;
+    background-color: #9276BF;
+    color:whitesmoke;
+    margin-left: -4px;
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.salmonBlock{
+    width:33%;
+    height: 300px;
+    margin-left: -2px;
+    display: inline-block;
+    background-color: #C38686;
+    color: whitesmoke;
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*/
+
+/*UX SKILLS CONTENT*/
+
+.flexContainer {
+    display: flex;
+    margin: 1%;
+    gap: 10px;
+    flex-direction: row;
+}
+.flexChild {
+    width: 33%;
+}
+.flexChild2 {
+    width: 33%;
+}
+.flexChild3 {
+    width: 33%;
+}
+
+.workGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea';
+    border-color:coral;
+    border-width: 2pt;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    */
+}
+section h1 {
+    font-size: 48px;
+}
+
+section h4{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    .workGrid{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin: 0px 5%;
+    }
+  }
