@@ -202,7 +202,7 @@ section h3{
     background-color: #0C2037; 
     color:#FEFEFE; 
     padding: 10px;
-    text-align: center;
+    border: none;
 }
 
 .usdaButton {
@@ -212,6 +212,7 @@ section h3{
     background-color: #0C2037; 
     color:#FEFEFE; 
     padding: 10px;
+    border: none;
 }
 /*-----------------------------------------------------------------------------*/
 
