@@ -11,7 +11,7 @@ $(".aboutButton").on("click", function(){
    setTimeout(function() {
     $(location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/skills.html").addClass('fadeIn');
   }, 1500);
-    $('.button').addClass('animate_content');
+    /*$('.button').addClass('animate_content');*/
    /*location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/skills.html";*/
 
     });

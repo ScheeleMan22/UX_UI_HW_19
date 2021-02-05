@@ -29,7 +29,7 @@ header p {
     margin-top: -10px;
 }
 /*------------------------Body Content-------------------------------------------------------------------*/
-
+/*
 button {
     padding-bottom: 10%;
     padding-top: 10%;
@@ -44,21 +44,69 @@ button {
     text-align:center;
     line-height: 2px;
 }
-
+*/
 .aboutButton {
     background-color: #6AA5B8;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-block;
+    color:#fefefe;
+    font-size:36px;
+    width: 33%;
+    height: 33%;
+    border: none;
+    margin-right: -2px;
+    margin-left: -2px;
+    text-align:center;
+    line-height: 2px;
 }
 .portButton {
     background-color: #C38686;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-block;
+    color:#fefefe;
+    font-size:36px;
+    width: 33%;
+    height: 33%;
+    border: none;
+    margin-right: -2px;
+    margin-left: -2px;
+    text-align:center;
+    line-height: 2px;
 }
 .connectButton {
     background-color: #D6A988;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-block;
+    color:#fefefe;
+    font-size:36px;
+    width: 33%;
+    height: 33%;
+    border: none;
+    margin-right: -2px;
+    margin-left: -2px;
+    text-align:center;
+    line-height: 2px;
 }
 .intoButton {
     background-color: #9276BF;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-block;
+    color:#fefefe;
+    font-size:36px;
+    width: 33%;
+    height: 33%;
+    border: none;
+    margin-right: -2px;
+    margin-left: -2px;
+    text-align:center;
+    line-height: 2px;
 }
 
-
+/*
 .animate_content
   animation animate 3s ease
 
@@ -77,7 +125,7 @@ button {
     opacity 1
   100%
     transform scale(1, 1)
-
+*/
 
 /*
 .wrapper {
@@ -159,7 +207,26 @@ footer li {
 */
 
 /*UX SKILLS CONTENT*/
-
+.aboutHeader {
+    font-size: 64px;
+    text-indent: 10%;
+    color:#fefefe;
+}
+.aboutPara {
+    display:inline-flex;   
+    color:#fefefe;
+    float: right;
+    text-indent: 10px;
+}
+.aboutImage {
+    float: left;
+    display: inline-flex;
+}
+.aboutMe{
+    display: inline-block;
+    overflow: auto;
+    margin-left: 5%;
+}
 .flexContainer {
     display: flex;
     margin: 1%;
@@ -168,12 +235,17 @@ footer li {
 }
 .flexChild {
     width: 33%;
+    margin-top: 2%;
 }
 .flexChild2 {
     width: 33%;
+    margin-top: 2%;
+
 }
 .flexChild3 {
     width: 33%;
+    margin-top: 2%;
+
 }
 
 .workGrid {
@@ -187,11 +259,11 @@ footer li {
     */
 }
 section h1 {
-    font-size: 48px;
+    font-size: 64px;
 }
 
-section h4{
-    font-size: 24px;
+section h3{
+    font-size: 36px;
 }
 
 @media only screen and (max-width: 600px) {
