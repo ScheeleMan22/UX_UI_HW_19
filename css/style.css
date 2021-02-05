@@ -1,7 +1,6 @@
 body{
     margin: 0;
     overflow: scroll;
-    /*background-color: #0C2037;*/
 }
 
 /*-------------------Top Navigation----------------------*/
@@ -29,22 +28,6 @@ header p {
     margin-top: -10px;
 }
 /*------------------------Body Content-------------------------------------------------------------------*/
-/*
-button {
-    padding-bottom: 10%;
-    padding-top: 10%;
-    display: inline-block;
-    color:#fefefe;
-    font-size:36px;
-    width: 33%;
-    height: 33%;
-    border: none;
-    margin-right: -2px;
-    margin-left: -2px;
-    text-align:center;
-    line-height: 2px;
-}
-*/
 .aboutButton {
     background-color: #6AA5B8;
     padding-bottom: 10%;
@@ -127,17 +110,6 @@ button {
     transform scale(1, 1)
 */
 
-/*
-.wrapper {
-    max-width: 300px;
-  margin: 0 auto;
-  text-align: center;
-}
-.buttonGrid {
-    display: inline-block;
-    position: left;
-}
-*/
 /*--------------------------------------------------------------------------------------------*/
 /*Footer Content*/
 /*
@@ -157,56 +129,10 @@ footer li {
     padding: 0px 7px;
 }
 */
+/*----------------------------------------------------------------------------------------------------*/
 
-/*
-.blueBlock{
-    width:33%;
-    height: 300px;
-    display: inline-block;
-    background-color: #6AA5B8;
-    color: whitesmoke;
-    margin-right: -2px;
-    text-align: center;
-    font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.mustardBlock{
-    width:33%;
-    height: 300px;
-    display: inline-block;
-    background-color: #D6A988;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.purpleBlock{
-    width:33%;
-    height: 300px;
-    display: inline-block;
-    background-color: #9276BF;
-    color:whitesmoke;
-    margin-left: -4px;
-    font-size: 36px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.salmonBlock{
-    width:33%;
-    height: 300px;
-    margin-left: -2px;
-    display: inline-block;
-    background-color: #C38686;
-    color: whitesmoke;
-    font-size: 36px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-*/
-
-/*UX SKILLS CONTENT*/
+/*About CONTENT*/
 .aboutHeader {
     font-size: 64px;
     text-indent: 10%;
@@ -217,6 +143,7 @@ footer li {
     color:#fefefe;
     float: right;
     text-indent: 10px;
+    overflow: auto;
 }
 .aboutImage {
     float: left;
@@ -229,7 +156,7 @@ footer li {
 }
 .flexContainer {
     display: flex;
-    margin: 1%;
+    margin: 2%;
     gap: 10px;
     flex-direction: row;
 }
@@ -247,16 +174,19 @@ footer li {
     margin-top: 2%;
 
 }
+/*------------------------------------------------------------------------------------*/
+/*Portfolio Content*/
+.emiSelection {
+    margin: 5%;
+    display: block;
 
-.workGrid {
-    margin: 0px 5%;
-    display: grid;
-    grid-template-areas: 'myArea myArea myArea myArea';
-    border-color:coral;
-    border-width: 2pt;
-    /*grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
-    */
+}
+.usdaSelection {
+    margin: 5%;
+    display: block;
+}
+.myWork {
+    display:inline-block;
 }
 section h1 {
     font-size: 64px;
@@ -266,6 +196,26 @@ section h3{
     font-size: 36px;
 }
 
+.emiButton {
+    display: flex;
+    font-size: 24px; 
+    background-color: #0C2037; 
+    color:#FEFEFE; 
+    padding: 10px;
+    text-align: center;
+}
+
+.usdaButton {
+    display: flex;
+    justify-content: center;
+    font-size: 24px; 
+    background-color: #0C2037; 
+    color:#FEFEFE; 
+    padding: 10px;
+}
+/*-----------------------------------------------------------------------------*/
+
+/*Connecting mobile RWD*/
 @media only screen and (max-width: 600px) {
     .workGrid{
       display: grid;
