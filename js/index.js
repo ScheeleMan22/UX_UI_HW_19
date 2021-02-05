@@ -31,5 +31,9 @@ $(".intoButton").on("click", function(){
     location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/skills.html";
     });        
 
-/*------------------------------------------------------------------------------*/
+    $(".logo").on("click", function(){
+        console.log("You clicked me!");
+        location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/index.html";
+        });   
+/*------------------------------------------------------*/
 
