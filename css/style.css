@@ -45,6 +45,39 @@ button {
     line-height: 2px;
 }
 
+.aboutButton {
+    background-color: #6AA5B8;
+}
+.portButton {
+    background-color: #C38686;
+}
+.connectButton {
+    background-color: #D6A988;
+}
+.intoButton {
+    background-color: #9276BF;
+}
+
+
+.animate_content
+  animation animate 3s ease
+
+
+@keyframes animate
+  10%
+    transform scale(1, 0.002)
+  35%
+    transform scale(0.2, 0.002)
+    opacity 1
+  50%
+    transform scale(0.2, 0.002)
+    opacity 0
+  85%
+    transform scale(1, 0.002)
+    opacity 1
+  100%
+    transform scale(1, 1)
+
 
 /*
 .wrapper {
