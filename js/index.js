@@ -23,12 +23,12 @@ $(".portButton").on("click", function(){
 
 $(".connectButton").on("click", function(){
     console.log("You clicked me!");
-    location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/skills.html";
+    location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/connectwithMe.html";
     });
         
 $(".intoButton").on("click", function(){
     console.log("You clicked me!");
-    location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/skills.html";
+    location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/gettingInto.html";
     });        
 
     $(".logo").on("click", function(){
