@@ -9,7 +9,7 @@ $(".aboutButton").on("click", function(){
    console.log("You clicked me!");
 
    setTimeout(function() {
-    $(location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/skills.html").addClass('fadeIn');
+    $(location.href = "https://scheeleman22.github.io/UX_UI_HW_19/skills.html").addClass('fadeIn');
   }, 1500);
     /*$('.button').addClass('animate_content');*/
    /*location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/skills.html";*/
@@ -23,17 +23,17 @@ $(".portButton").on("click", function(){
 
 $(".connectButton").on("click", function(){
     console.log("You clicked me!");
-    location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/connectwithMe.html";
+    location.href = "https://scheeleman22.github.io/UX_UI_HW_19/connectwithMe.html";
     });
         
 $(".intoButton").on("click", function(){
     console.log("You clicked me!");
-    location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/gettingInto.html";
+    location.href = "https://scheeleman22.github.io/UX_UI_HW_19/gettingInto.html";
     });        
 
 $(".logo").on("click", function(){
         console.log("You clicked me!");
-        location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/index.html";
+        location.href = "https://scheeleman22.github.io/UX_UI_HW_19/index.html";
         });   
 /*------------------------------------------------------*/
 /*--------------Hovering--------------------*/
