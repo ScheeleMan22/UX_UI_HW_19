@@ -18,7 +18,7 @@ $(".aboutButton").on("click", function(){
    
 $(".portButton").on("click", function(){
     console.log("You clicked me!");
-    location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/myWork.html";
+    location.href = "https://scheeleman22.github.io/UX_UI_HW_19/myWork.html";
     });
 
 $(".connectButton").on("click", function(){
