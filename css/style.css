@@ -3,7 +3,7 @@ body{
     overflow: scroll;
 }
 
-/*-------------------Top Navigation----------------------*/
+/*-------------------Navigation(all pages)----------------------*/
 header {
     background-color: #0C2037;
     padding:15px;
@@ -27,7 +27,7 @@ header p {
     color: #fefefe;
     margin-top: -10px;
 }
-/*------------------------Body Content-------------------------------------------------------------------*/
+/*------------------------Main Page Content-------------------------------------------------------------------*/
 .aboutButton {
     background-color: #6AA5B8;
     padding-bottom: 10%;
@@ -110,29 +110,7 @@ header p {
     transform scale(1, 1)
 */
 
-/*--------------------------------------------------------------------------------------------*/
-/*Footer Content*/
-/*
-footer{
-    background-color: #0C2037;
-    padding: 5px;
-    color: #fefefe;
- 
-}
-
-footer ul {
-    list-style: none;
-    padding-left: 5px;
-}
-footer li {
-    display: inline-block;
-    padding: 0px 7px;
-}
-*/
-/*----------------------------------------------------------------------------------------------------*/
-
-
-/*About CONTENT*/
+/*---------------Skills Page Content------------------*/
 .aboutHeader {
     font-size: 64px;
     text-indent: 10%;
@@ -174,8 +152,7 @@ footer li {
     margin-top: 2%;
 
 }
-/*------------------------------------------------------------------------------------*/
-/*Portfolio Content*/
+/*---------------Portfolio Page Content-------------------------------------*/
 .emiSelection {
     margin: 5%;
     display: block;
@@ -216,8 +193,7 @@ section h3{
     border: none;
     margin:0 auto;
 }
-/*-----------------------------------------------------------------------------*/
-/*-------------Case Study Code------------------------*/
+/*-------------Urban Peak Case Study Page Content------------------------*/
 .upCaseHead {
     background-color: #213340;
     display: block;
@@ -275,7 +251,7 @@ section h3{
     font-size: 18px;
 }
 
-/*Connecting mobile RWD*/
+/*-----------------Connecting mobile RWD---------------------*/
 @media only screen and (max-width: 600px) {
     .workGrid{
       display: grid;
