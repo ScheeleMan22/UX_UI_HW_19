@@ -206,7 +206,7 @@ section h3{
     margin:0 auto;
 }
 
-.usdaButton {
+.upButton {
     display: flex;
     justify-content: center;
     font-size: 24px; 
@@ -217,6 +217,55 @@ section h3{
     margin:0 auto;
 }
 /*-----------------------------------------------------------------------------*/
+/*-------------Case Study Code------------------------*/
+.upCaseHead {
+    background-color: #213340;
+    display: block;
+}
+.upLogo {
+    padding: 5px;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.overviewPara {
+    text-align: justify;
+    font-size: 36px;
+    color: #988F8F;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    font-style: italic;
+}
+.keyThemes {
+    text-align:center;
+    font-size: 18px;
+    color: #BC3D3D;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+.row {
+    padding: 5%;
+    padding-bottom: 2%;
+}
+
+.col-md{
+    font-size: 48px;
+}
+.projectP {
+    font-size: 24px;
+}
+.myroleP {
+    font-size: 24px;
+}
+.upVideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
 
 /*Connecting mobile RWD*/
 @media only screen and (max-width: 600px) {

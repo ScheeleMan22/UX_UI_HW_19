@@ -35,6 +35,10 @@ $(".logo").on("click", function(){
         console.log("You clicked me!");
         location.href = "https://scheeleman22.github.io/UX_UI_HW_19/index.html";
         });   
+$(".upButton").on("click", function(){
+      console.log("You clicked me!");
+      location.href = "https://scheeleman22.github.io/UX_UI_HW_19/upCaseStudy.html";
+});
 /*------------------------------------------------------*/
 /*--------------Hovering--------------------*/
 /*$(".portButton").hover(function(){
