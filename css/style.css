@@ -255,16 +255,24 @@ section h3{
     font-size: 48px;
 }
 .projectP {
-    font-size: 24px;
+    font-size: 18px;
 }
 .myroleP {
-    font-size: 24px;
+    font-size: 18px;
 }
 .upVideo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
+}
+.insightHead {
+    padding:5%;
+}
+
+.insightPara {
+    padding:5%;
+    font-size: 18px;
 }
 
 /*Connecting mobile RWD*/
