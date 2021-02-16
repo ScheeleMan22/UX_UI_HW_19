@@ -204,6 +204,18 @@ section h3{
     margin-top: 2%;
     margin-bottom: 2%;
 }
+.emiCaseHead {
+    background-color: #4D789E;
+    display: block;
+}
+.emiLogo {
+    padding: 5px;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width:100px;
+    height: 100px;
+}
 
 .overviewPara {
     text-align: justify;
